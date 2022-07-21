@@ -11,6 +11,7 @@ const options = {
 if (config.isProd) {
   options.dialecOptions = {
     ssl: {
+      require: true,
       rejectUnauthorized: false      
     }
   }
